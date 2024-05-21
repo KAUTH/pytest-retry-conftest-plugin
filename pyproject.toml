@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytest-retry-conftest-plugin"
+version = "0.1.0"
+description = ""
+authors = ["Konstantinos Papadopoulos <konpap1996@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pytest_retry_conftest_plugin"}]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+pytest = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
